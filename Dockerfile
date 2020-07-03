@@ -1,4 +1,4 @@
-FROM selfjiangtao/golang
+FROM daocloud.io/daocloud/golang
 
 LABEL MAINTAINER="xmcn<122>"
 
