@@ -8,7 +8,7 @@ WORKDIR /go/src/go-test
 
 COPY . .
 
-RUN go mod verdor
+RUN go mod vendor
 
 RUN go build -o go-test
 
