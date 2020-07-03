@@ -1,4 +1,4 @@
-FROM golang:1.11
+FROM selfjiangtao/golang
 
 LABEL MAINTAINER="xmcn<122>"
 
