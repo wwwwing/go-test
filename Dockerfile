@@ -1,6 +1,6 @@
 FROM golang:1.12
 
-MAINTAINER="xmcn<122>"
+LABEL MAINTAINER="xmcn<122>"
 
 ENV GO111MODULE on
 
