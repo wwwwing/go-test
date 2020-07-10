@@ -2,7 +2,8 @@ FROM daocloud.io/daocloud/golang
 
 LABEL MAINTAINER="xmcn<122>"
 
-ENV GO111MODULE on
+RUN go env -w GO111MODULE=on
+RUN go env -w GOPROXY=https://goproxy.cn,direct
 
 WORKDIR /go/src/go-test
 
